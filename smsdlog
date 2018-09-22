@@ -1,0 +1,40 @@
+Thu 2018/08/30 13:44:41 gammu-smsd: mysql service is deprecated. Please use SQL service with correct driver.
+Thu 2018/08/30 13:44:41 gammu-smsd: MYSQL service was not compiled in!
+Thu 2018/08/30 13:45:03 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Thu 2018/08/30 13:45:03 gammu-smsd: Created Windows RW shared memory at 0000022A5B220000
+Thu 2018/08/30 13:45:03 gammu-smsd: Starting phone communication...
+Thu 2018/08/30 13:45:08 gammu-smsd: Inserting phone info
+Thu 2018/08/30 13:45:09 gammu-smsd: Read 4 messages
+Thu 2018/08/30 13:45:09 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/08/30 13:45:12 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/08/30 13:46:39 gammu-smsd: Read 1 messages
+Thu 2018/08/30 13:47:04 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/08/30 13:57:41 gammu-smsd: Error getting security status: No response in specified timeout. Probably phone not connected. (TIMEOUT[14])
+Thu 2018/08/30 13:57:41 gammu-smsd: You might want to set CheckSecurity = 0 to avoid checking security status
+Thu 2018/08/30 14:00:35 gammu-smsd: Error getting security status: No response in specified timeout. Probably phone not connected. (TIMEOUT[14])
+Thu 2018/08/30 14:00:35 gammu-smsd: You might want to set CheckSecurity = 0 to avoid checking security status
+Thu 2018/08/30 14:03:13 gammu-smsd: Error getting security status: No response in specified timeout. Probably phone not connected. (TIMEOUT[14])
+Thu 2018/08/30 14:03:13 gammu-smsd: You might want to set CheckSecurity = 0 to avoid checking security status
+Thu 2018/08/30 14:04:53 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Thu 2018/08/30 14:04:53 gammu-smsd: Created Windows RW shared memory at 000002475F280000
+Thu 2018/08/30 14:04:53 gammu-smsd: Starting phone communication...
+Thu 2018/08/30 14:04:58 gammu-smsd: Inserting phone info
+Thu 2018/08/30 14:04:59 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/08/30 14:05:29 gammu-smsd: Read 1 messages
+Thu 2018/08/30 14:30:14 gammu-smsd: Read 1 messages
+Fri 2018/08/31 17:39:15 gammu-smsd: SQLConnect failed, Code = -1, ODBC diagnostics:
+Fri 2018/08/31 17:39:15 gammu-smsd: HY000:1:2003:[MySQL][ODBC 8.0(a) Driver]Can't connect to MySQL server on 'localhost' (10061)
+
+Fri 2018/08/31 17:39:15 gammu-smsd: Initialisation failed, stopping Gammu smsd: Failed to connect to database. (DB_CONNECT[77])
+Fri 2018/08/31 17:39:16 gammu-smsd: Stopping Gammu smsd: No error. (NONE[1])
+Fri 2018/08/31 17:41:54 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Fri 2018/08/31 17:41:54 gammu-smsd: Created Windows RW shared memory at 000001475C890000
+Fri 2018/08/31 17:41:54 gammu-smsd: Starting phone communication...
+Fri 2018/08/31 17:41:59 gammu-smsd: Inserting phone info
+Fri 2018/08/31 17:42:00 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Fri 2018/08/31 17:43:00 gammu-smsd: Read 1 messages
+Wed 2018/09/12 16:01:04 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Wed 2018/09/12 16:01:04 gammu-smsd: Created Windows RW shared memory at 00000228571C0000
+Wed 2018/09/12 16:01:04 gammu-smsd: Starting phone communication...
+Wed 2018/09/12 16:01:04 gammu-smsd: Can't open device: Error opening device. Unknown, busy or no permissions. (DEVICEOPENERROR[2])
+Wed 2018/09/12 16:01:04 gammu-smsd: Stopping Gammu smsd: No error. (NONE[1])
